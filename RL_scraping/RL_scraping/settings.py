@@ -19,7 +19,7 @@ NEWSPIDER_MODULE = 'RL_scraping.spiders'
 #USER_AGENT = 'RL_scraping (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -70,8 +70,7 @@ ITEM_PIPELINES = {
 
 DOWNLOAD_TIMEOUT = 1000
 
-import os
-FILES_STORE = os.getcwd() + 'Data'
+FILES_STORE = 'RL_scraping_data'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
