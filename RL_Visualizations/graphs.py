@@ -89,8 +89,8 @@ win_by_behind_ball_diff = dcc.Graph(
                 )
             ],
             'layout': go.Layout(
-                xaxis={'type': 'linear', 'title': 'Difference of Time Spent Behind Ball'},
-                yaxis={'type': 'linear', 'title': 'Game ID'},
+                xaxis={'type': 'linear', 'title': 'Game ID'},
+                yaxis={'type': 'linear', 'title': 'Difference of Time Spent Behind Ball'},
                 legend={'x': 0, 'y': 1}
             )
         }
