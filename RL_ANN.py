@@ -24,12 +24,6 @@ classifier.add(Dense(
     input_dim=18
     ))
 
-# classifier.add(Dense(
-#     units=9,
-#     kernel_initializer='uniform',
-#     activation='relu'
-#     ))
-
 classifier.add(Dense(
     units=6,
     kernel_initializer='uniform',
